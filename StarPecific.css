@@ -82,6 +82,21 @@
 .slidebar img {
     width: 896px;
     height: 100%;
+    position: relative;
+    background: url(image/slide.jpeg);
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background: url(image/slide.jpeg);
+    }
+    70% {
+        background: url(image/homeslide3.jpg);
+    }
+    100% {
+        background: url(image/star-pacific-2_720.jpg);
+    }
 }
 
 .slide-book {
