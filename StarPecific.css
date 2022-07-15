@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1342px;
+    margin-left: 4px;
+}
+
+.logo-num {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1360px;
+    margin: 55px 0px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.contact {
+    margin-left: 48%;
+}
+
+.contact p:hover {
+    color: #8F859E;
+    cursor: pointer;
+}
+
+.contact p {
+    transition: 0.3s;
+}
+
+.contact p i {
+    margin-right: 10px;
+    color: #8F859E;
+}
+
+.discount img {
+    width: 100px;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #333;
+}
+
+.manu {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.manu ul {
+    display: flex;
+}
+
+.manu ul li {
+    padding: 30px;
+    list-style: none;
+}
+
+.manu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.manu ul li a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.manu ul li i {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.slidebar img {
+    width: 896px;
+    height: 100%;
+}
+
+.slide-book {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.booking {
+    background: #ddd;
+    width: 323px;
+    padding: 40px;
+}
+
+.slidebar {
+    width: 896px;
+}
+
+.booking h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.booking p {
+    font-size: 15px;
+}
+
+input[type="text"] {
+    padding: 10px 125px 10px 12px;
+    font-size: 15px;
+    border: none;
+    background: #fff;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+button.submit {
+    width: 100%;
+    padding: 15px;
+    transition: 0.5s;
+    margin-top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    background: #8F859E;
+    color: #fff;
+}
+
+button.submit:hover {
+    background: #2D3135;
+}
+
+.booking p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.Welcoming {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.pic {
+    width: 720px;
+}
+
+.pic img {
+    width: 550px;
+    height: 100%;
+}
+
+.text {
+    background: #2D3135;
+    color: #fff;
+    margin-right: 30px;
+    padding: 65px 40px 0px 40px;
+}
+
+.text h1 {
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.title-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title-option h1 {
+    font-size: 40px;
+}
+
+.title-option a {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.rooms {
+    border-top: 1px solid #dddd;
+    margin-bottom: 50px;
+}
+
+.rooms-1 {
+    width: 492px;
+    padding: 17px;
+    display: flex;
+}
+
+.rooms-1 img {
+    width: 420px;
+    transition: 0.5s;
+}
+
+.room-text {
+    display: flex;
+}
+
+.room-text p {
+    margin: 25px 0px;
+}
+
+.room-text p a {
+    text-decoration: none;
+    color: green;
+    font-size: 23px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.room-text p a:hover {
+    color: #8F859E;
+}
+
+.room-text span {
+    margin: 5px 0px 5px 30px;
+    font-weight: 600;
+}
+
+.room-text span del {
+    margin-right: 12px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+
+.room-pic img {
+    width: 420px;
+    transition: 2s;
+}
+
+.room-pic {
+    overflow: hidden;
+}
+
+.room-pic img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rooms-suites {
+    margin-right: 15px;
+}
+
+.room-pic-2 {
+    overflow: hidden;
+}
+
+.room-pic-2 img {
+    width: 420px;
+    transition: 2s;
+}
+
+.room-pic-2 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.room-pic-3 img {
+    width: 420px;
+    transition: 2s;
+}
+
+.room-pic-3 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.room-pic-3 {
+    overflow: hidden;
+}
+
+.fecilities {
+    width: 1344px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dddd;
+}
+
+.fecilities-2 {
+    width: 1344px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    width: 321px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.service h1 {
+    font-size: 25px;
+    color: #151515;
+}
+
+.service h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    background: #fb5200;
+    width: 62px;
+    border-bottom: 3px solid #fb5200;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service p {
+    font-size: 15px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    background: #646464;
+    padding: 60px;
+}
+
+.address h1 {
+    font-size: 25px;
+    border-bottom: 1px solid #a3a3a3;
+    width: 166px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.destination i {
+    color: #636962;
+    margin-right: 10px;
+}
+
+.address a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.address a :hover {
+    color: #8F859E;
+}
+
+.address {
+    background: #2D3135;
+    padding: 24px 130px;
+}
+
+.location {
+    display: flex;
+    width: 100%;
+}
+
+.address h1 {
+    color: #fff;
+    font-size: 25px;
+    width: 164px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #636962;
+}
+
+.destination i {
+    color: #636962;
+    margin-right: 10px;
+}
+
+.destination a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.destination a:hover {
+    color: #8F859E;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.number a {
+    color: #fff;
+    margin-right: -2px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.number a:hover {
+    color: #8F859E;
+}
+
+.number i {
+    color: #636962;
+    margin-right: 10px;
+}
+
+.destination {
+    margin-bottom: 10px;
+}
+
+.email i {
+    color: #636962;
+    margin-right: 10px;
+}
+
+.email a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.email a:hover {
+    color: #8F859E;
+}
+
+.finishing {
+    display: flex;
+    justify-content: space-between;
+    width: 593px;
+    margin-top: 30px;
+}
+
+.address img {
+    margin-top: 30px;
+}
+
+.finishing p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.finishing p a:hover {
+    color: #8F859E;
+}
